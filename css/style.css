@@ -1,0 +1,143 @@
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eee;
+}
+
+.header {
+    padding-top: 39px;
+    background-color: #f9f9f9;
+}
+
+.company_info p {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.headline {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 60px;
+}
+
+.header:after {
+    content: " ";
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background: linear-gradient(#f9f9f9 0%, transparent 0%), linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee linear-gradient(45deg, #eee 33.33%, #f9f9f9 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#f9f9f9 0%, transparent 0%), -webkit-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -webkit-linear-gradient(45deg, #eee 33.33%, #f9f9f9 33.33%) 0 0%;
+    background: -o-linear-gradient(#f9f9f9 0%, transparent 0%), -o-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -o-linear-gradient(45deg, #eee 33.33%, #f9f9f9 33.33%) 0 0%;
+    background: -moz-linear-gradient(#f9f9f9 0%, transparent 0%), -moz-linear-gradient(135deg, #eee 33.33%, transparent 33.33%) 0 0%, #eee -moz-linear-gradient(45deg, #eee 33.33%, #f9f9f9 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+
+.main_content {
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.date_time {
+    margin-top: 6px;
+    font-size: 15px;
+}
+
+.comment_text {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+
+.field_name {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    border: 2px solid black;
+    outline: 0;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 150px;
+    resize: none;
+    padding-left: 15px;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+.footer_text {
+    margin-left: 30px;
+}
+
+.company_info_footer {
+    margin-top: 30px;
+}
+
+.company_info_footer p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-top: 50px;
+}
